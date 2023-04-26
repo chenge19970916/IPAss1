@@ -1,0 +1,53 @@
+.Category{
+    border: 1px solid black;
+    width: 250px;
+    height: 1790px;
+    background-color: blueviolet;
+    position: relative;
+}
+.content {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+    background-color: darkorchid;
+}
+
+input:checked ~ .content {
+    height: auto;
+    overflow: visible;
+}
+
+.Category a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 5px;
+}
+.Category a:hover{
+    color: white;
+}
+.Category label{
+    font-family: "Lucida Calligraphy", cursive, serif, sans-serif;
+    font-size: 10px;
+    width: 150px;
+    font-weight: bold;
+}
+.Frozen-Food{
+    background-color: blueviolet;
+    margin-top: 10px;
+}
+.Fresh-Food{
+    background-color:blueviolet;
+}
+.Beverages{
+    background-color: blueviolet;
+}
+.Home-Health{
+    background-color: blueviolet;
+}
+.Pet-Food{
+    background-color: blueviolet;
+}
+
+

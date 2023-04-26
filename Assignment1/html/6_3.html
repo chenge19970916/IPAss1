@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTS-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .S-content{
+            height: 1300px;
+
+        }
+        #S-水果面包{
+            height: 300px;
+            width: 250px;
+            position: relative;
+        }
+        #S-水果面包-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/Fr-水果面包.jpg");
+        }
+        #S-水果面包-name{
+            margin-top: 10px;
+        }
+        #S-水果面包-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        .购物车按钮{
+            margin-left: 200px;
+        }
+        #S-甜面包{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 600px;
+            top: 332px;
+        }
+        #S-甜面包-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/Fr-甜面包.jpg");
+        }
+        #S-甜面包-name{
+            margin-top: 10px;
+        }
+        #S-甜面包-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-咸面包{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 1150px;
+            top: 332px;
+        }
+        #S-咸面包-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/Fr-咸面包.jpg");
+        }
+        #S-咸面包-name{
+            margin-top: 10px;
+        }
+        #S-咸面包-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-饺子{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            top: 732px;
+        }
+        #S-饺子-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/Fr-饺子.jpg");
+        }
+        #S-饺子-name{
+            margin-top: 10px;
+        }
+        #S-饺子-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-辣椒酱{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 600px;
+            top: 732px;
+        }
+        #S-辣椒酱-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/Fr-辣椒酱.jpg");
+        }
+        #S-辣椒酱-name{
+            margin-top: 10px;
+        }
+        #S-辣椒酱-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-苹果干{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 1150px;
+            top: 732px;
+        }
+        #S-苹果干-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/Fr-苹果干.jpg");
+        }
+        #S-苹果干-name{
+            margin-top: 10px;
+        }
+        #S-苹果干-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-蔬菜三明治{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            top: 1132px;
+        }
+        #S-蔬菜三明治-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/Fr-蔬菜三明治.jpg");
+        }
+        #S-蔬菜三明治-name{
+            margin-top: 10px;
+        }
+        #S-蔬菜三明治-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-水果糖{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 600px;
+            top: 1132px;
+        }
+        #S-水果糖-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/Fr-水果糖.jpg");
+        }
+        #S-水果糖-name{
+            margin-top: 10px;
+        }
+        #S-水果糖-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-水果汁{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 1150px;
+            top: 1132px;
+        }#S-水果汁-img{
+             width: 250px;
+             height: 200px;
+             background-image: url("../image/Fr-水果汁.jpg");
+         }
+        #S-水果汁-name{
+            margin-top: 10px;
+        }
+        #S-水果汁-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div class="S-content">
+    <div id ="S-水果面包">
+        <div id="S-水果面包-img"></div>
+        <div id="S-水果面包-name">Fresh-Food-Fruit bread</div>
+        <div id="S-水果面包-price">$15.5</div>
+        <p style="color: grey">Not in stock</p>
+    </div>
+    <div id ="S-甜面包">
+        <div id="S-甜面包-img"></div>
+        <div id="S-甜面包-name">Fresh-Food-sweet bread</div>
+        <div id="S-甜面包-price">$11.6</div>
+        <p>In stock</p>
+    </div>
+    <div id ="S-咸面包">
+        <div id="S-咸面包-img"></div>
+        <div id="S-咸面包-name">Fresh-Food-salty bread</div>
+        <div id="S-咸面包-price">$12.5</div>
+        <p>In stock</p>
+    </div>
+    <div id="S-饺子">
+        <div id="S-饺子-img"></div>
+        <div id="S-饺子-name">Fresh-Food-dumpling</div>
+        <div id="S-饺子-price">$18.8</div>
+        <p>In stock</p>
+    </div>
+
+    <div id ="S-辣椒酱">
+        <div id="S-辣椒酱-img"></div>
+        <div id="S-辣椒酱-name">Fresh-Food-chili sauce</div>
+        <div id="S-辣椒酱-price">$7.7</div>
+        <p>In stock</p>
+    </div>
+    <div id ="S-苹果干">
+        <div id="S-苹果干-img"></div>
+        <div id="S-苹果干-name">Fresh-Food-dried apples</div>
+        <div id="S-苹果干-price">18.2</div>
+        <p>In stock</p>
+    </div>
+    <div id ="S-蔬菜三明治">
+        <div id="S-蔬菜三明治-img"></div>
+        <div id="S-蔬菜三明治-name">Fresh-Food-vegetable sandwich</div>
+        <div id="S-蔬菜三明治-price">$12.6</div>
+        <p>In stock</p>
+    </div>
+    <div id ="S-水果糖">
+        <div id="S-水果糖-img"></div>
+        <div id="S-水果糖-name">Fresh-Food-Suit candy</div>
+        <div id="S-水果糖-price">$10.0</div>
+        <p style="color: grey">Not in stock</p>
+    </div>
+    <div id ="S-水果汁">
+        <div id="S-水果汁-img"></div>
+        <div id="S-水果汁-name">Fresh-Food-Suit juice</div>
+        <div id="S-水果汁-price">$16.6</div>
+        <p>In stock</p>
+    </div>
+</div>
+
+</body>
+</html>
+
+<script>
+</script>

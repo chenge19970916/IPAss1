@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .F-content{
+            height: 1300px;
+
+        }
+        #F-鲍鱼{
+            height: 300px;
+            width: 250px;
+            position: relative;
+        }
+        #F-鲍鱼-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/F-鲍鱼.jpg");
+        }
+        #F-鲍鱼-name{
+            margin-top: 10px;
+        }
+        #F-鲍鱼-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #F-带鱼{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 600px;
+            top: 332px;
+        }
+        #F-带鱼-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/F-带鱼.jpg");
+        }
+        #F-带鱼-name{
+            margin-top: 10px;
+        }
+        #F-带鱼-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #F-鲑鱼{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 1150px;
+            top: 332px;
+        }
+        #F-鲑鱼-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/F-鲑鱼.jpg");
+        }
+        #F-鲑鱼-name{
+            margin-top: 10px;
+        }
+        #F-鲑鱼-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #F-牡蛎{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            top: 732px;
+        }
+        #F-牡蛎-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/F-牡蛎.jpg");
+        }
+        #F-牡蛎-name{
+            margin-top: 10px;
+        }
+        #F-牡蛎-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #F-螃蟹{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 600px;
+            top: 732px;
+        }
+        #F-螃蟹-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/F-螃蟹.jpg");
+        }
+        #F-螃蟹-name{
+            margin-top: 10px;
+        }
+        #F-螃蟹-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #F-沙丁鱼{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 1150px;
+            top: 732px;
+        }
+        #F-沙丁鱼-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/F-沙丁鱼.jpg");
+        }
+        #F-沙丁鱼-name{
+            margin-top: 10px;
+        }
+        #F-沙丁鱼-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #F-鳕鱼{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            top: 1132px;
+        }
+        #F-鳕鱼-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/F-鳕鱼.jpg");
+        }
+        #F-鳕鱼-name{
+            margin-top: 10px;
+        }
+        #F-鳕鱼-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #F-鱿鱼{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 600px;
+            top: 1132px;
+        }
+        #F-鱿鱼-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/F-鱿鱼.jpg");
+        }
+        #F-鱿鱼-name{
+            margin-top: 10px;
+        }
+        #F-鱿鱼-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+<div class="F-content">
+    <div id="F-鲍鱼">
+        <div id="F-鲍鱼-img"></div>
+        <div id="F-鲍鱼-name">Frozen-Food-Abalone</div>
+        <div id="F-鲍鱼-price">$829.9</div>
+        <p>In stock</p>
+    </div>
+
+    <div id ="F-带鱼">
+        <div id="F-带鱼-img"></div>
+        <div id="F-带鱼-name">Frozen-Food-Hairtail</div>
+        <div id="F-带鱼-price">$119.9</div>
+        <p>In stock</p>
+    </div>
+    <div id ="F-鲑鱼">
+        <div id="F-鲑鱼-img"></div>
+        <div id="F-鲑鱼-name">Frozen-Food-Salmon</div>
+        <div id="F-鲑鱼-price">$252.2</div>
+        <p>In stock</p>
+    </div>
+    <div id ="F-牡蛎">
+        <div id="F-牡蛎-img"></div>
+        <div id="F-牡蛎-name">Frozen-Food-Oyster</div>
+        <div id="F-牡蛎-price">$366.6</div>
+        <p>In stock</p>
+    </div>
+    <div id ="F-螃蟹">
+        <div id="F-螃蟹-img"></div>
+        <div id="F-螃蟹-name">Frozen-Food-Crab</div>
+        <div id="F-螃蟹-price">$296.6</div>
+        <p style="color: grey">Not in stock</p>
+    </div>
+    <div id ="F-沙丁鱼">
+        <div id="F-沙丁鱼-img"></div>
+        <div id="F-沙丁鱼-name">Frozen-Food-Sardine</div>
+        <div id="F-沙丁鱼-price">$546.6</div>
+        <p>In stock</p>
+    </div>
+    <div id ="F-鳕鱼">
+        <div id="F-鳕鱼-img"></div>
+        <div id="F-鳕鱼-name">Frozen-Food-Cod</div>
+        <div id="F-鳕鱼-price">$116.6</div>
+        <p>In stock</p>
+    </div>
+    <div id ="F-鱿鱼">
+        <div id="F-鱿鱼-img"></div>
+        <div id="F-鱿鱼-name">Frozen-Food-Squid</div>
+        <div id="F-鱿鱼-price">$227.7</div>
+        <p>In stock</p>
+    </div>
+</div>
+
+</body>
+</html>

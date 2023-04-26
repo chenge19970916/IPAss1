@@ -1,0 +1,816 @@
+#F-西瓜-bt{
+    position: absolute;
+    top: 606px;
+    left: 5px;
+    display: none;
+}
+#F-草莓-bt{
+    position: absolute;
+    top: 606px;
+    left: 600px;
+    display: none;
+}
+#F-黄瓜-bt{
+    position: absolute;
+    top: 606px;
+    left: 1150px;
+    display: none;
+}
+#F-苹果-bt{
+    position: absolute;
+    top: 1006px;
+    left: 5px;
+    display: none;
+}
+#F-青菜-bt{
+    position: absolute;
+    top: 1006px;
+    left: 600px;
+    display: none;
+}
+#F-青椒-bt{
+    position: absolute;
+    top: 1006px;
+    left: 1150px;
+    display: none;
+}
+#F-西红柿-bt{
+    position: absolute;
+    top: 1406px;
+    left: 5px;
+    display: none;
+}
+#F-香蕉-bt{
+    position: absolute;
+    top: 1406px;
+    left: 600px;
+    display: none;
+}
+#F-樱桃-bt{
+    position: absolute;
+    top: 1406px;
+    left: 1150px;
+    display: none;
+}
+#F-牛肉-bt{
+    position: absolute;
+    top: 606px;
+    left: 5px;
+    display: none;
+}
+#F-羊肉-bt{
+    position: absolute;
+    top: 606px;
+    left: 600px;
+    display: none;
+}
+#F-猪肉-bt{
+    position: absolute;
+    top: 606px;
+    left: 1150px;
+    display: none;
+}
+#F-鸡肉-bt{
+    position: absolute;
+    top: 1006px;
+    left: 5px;
+    display: none;
+}
+/*----------------------------------*/
+#F-鲍鱼-bt{
+    position: absolute;
+    top: 606px;
+    left: 5px;
+    display: none;
+}
+#F-带鱼-bt{
+    position: absolute;
+    top: 606px;
+    left: 600px;
+    display: none;
+}
+#F-鲑鱼-bt{
+    position: absolute;
+    top: 606px;
+    left: 1150px;
+    display: none;
+}
+#F-牡蛎-bt{
+    position: absolute;
+    top: 1006px;
+    left: 5px;
+    display: none;
+}
+#F-螃蟹-bt{
+    position: absolute;
+    top: 1006px;
+    left: 600px;
+    display: none;
+}
+#F-沙丁鱼-bt{
+    position: absolute;
+    top: 1006px;
+    left: 1150px;
+    display: none;
+}
+#F-鳕鱼-bt{
+    position: absolute;
+    top: 1406px;
+    left: 5px;
+    display: none;
+}
+#F-鱿鱼-bt{
+    position: absolute;
+    top: 1406px;
+    left: 600px;
+    display: none;
+}
+/*。。。。。。。。。。。。。。。。。。*/
+#F-冰淇淋-bt{
+    position: absolute;
+    top: 606px;
+    left: 5px;
+    display: none;
+}
+#F-蛋糕-bt{
+    position: absolute;
+    top: 606px;
+    left: 600px;
+    display: none;
+}
+#F-三明治-bt{
+    position: absolute;
+    top: 606px;
+    left: 1150px;
+    display: none;
+}
+#F-酸奶-bt{
+    position: absolute;
+    top: 1006px;
+    left: 5px;
+    display: none;
+}
+#F-甜筒-bt{
+    position: absolute;
+    top: 1006px;
+    left: 600px;
+    display: none;
+}
+/*。。。。。。。。。。。。。。。。。。。*/
+#Fr-豆奶-bt{
+    position: absolute;
+    top: 606px;
+    left: 5px;
+    display: none;
+}
+#Fr-奶粉-bt{
+    position: absolute;
+    top: 606px;
+    left: 600px;
+    display: none;
+}
+#Fr-奶酪-bt{
+    position: absolute;
+    top: 606px;
+    left: 1150px;
+    display: none;
+}
+#Fr-牛奶-bt{
+    position: absolute;
+    top: 1006px;
+    left: 5px;
+    display: none;
+}
+#Fr-酸奶-bt{
+    position: absolute;
+    top: 1006px;
+    left: 600px;
+    display: none;
+}
+/*............................*/
+#Fr-面包片-bt{
+    position: absolute;
+    top: 606px;
+    left: 5px;
+    display: none;
+}
+#Fr-曲奇-bt{
+    position: absolute;
+    top: 606px;
+    left: 600px;
+    display: none;
+}
+#Fr-水果面包-bt{
+    position: absolute;
+    top: 606px;
+    left: 1150px;
+    display: none;
+}
+#Fr-甜面包-bt{
+    position: absolute;
+    top: 1006px;
+    left: 5px;
+    display: none;
+}
+#Fr-咸面包-bt{
+    position: absolute;
+    top: 1006px;
+    left: 600px;
+    display: none;
+}
+/*。。。。。。。。。。。。。。。。。。。。。。。。。*/
+#Fr-饺子-bt{
+    position: absolute;
+    top: 606px;
+    left: 5px;
+    display: none;
+}
+#Fr-辣椒酱-bt{
+    position: absolute;
+    top: 606px;
+    left: 600px;
+    display: none;
+}
+#Fr-苹果干-bt{
+    position: absolute;
+    top: 606px;
+    left: 1150px;
+    display: none;
+}
+#Fr-蔬菜三明治-bt{
+    position: absolute;
+    top: 1006px;
+    left: 5px;
+    display: none;
+}
+#Fr-水果糖-bt{
+    position: absolute;
+    top: 1006px;
+    left: 600px;
+    display: none;
+}
+#Fr-水果汁-bt{
+    position: absolute;
+    top: 1006px;
+    left: 1150px;
+    display: none;
+}
+#Fr-玉米粉-bt{
+    position: absolute;
+    top: 1406px;
+    left: 5px;
+    display: none;
+}
+/*。。。。。。。。。。。。。。。*/
+#B-咖啡-bt{
+    position: absolute;
+    top: 606px;
+    left: 5px;
+    display: none;
+}
+#B-茶-bt{
+    position: absolute;
+    top: 606px;
+    left: 600px;
+    display: none;
+}
+/*。。。。。。。。。。。。。。。。*/
+#B-酒-bt{
+    position: absolute;
+    top: 606px;
+    left: 5px;
+    display: none;
+}
+#B-可乐-bt{
+    position: absolute;
+    top: 606px;
+    left: 600px;
+    display: none;
+}
+#B-苹果汁-bt{
+    position: absolute;
+    top: 606px;
+    left: 1150px;
+    display: none;
+}
+#B-蔬菜汁-bt{
+    position: absolute;
+    top: 1006px;
+    left: 5px;
+    display: none;
+}
+#B-西瓜汁-bt{
+    position: absolute;
+    top: 1006px;
+    left: 600px;
+    display: none;
+}
+/*.。。。。。。。。。。。。。。。*/
+#B-鸡尾酒-bt{
+    position: absolute;
+    top: 606px;
+    left: 5px;
+    display: none;
+}
+#B-啤酒-bt{
+    position: absolute;
+    top: 606px;
+    left: 600px;
+    display: none;
+}
+#B-葡萄酒-bt{
+    position: absolute;
+    top: 606px;
+    left: 1150px;
+    display: none;
+}
+#B-水果酒-bt{
+    position: absolute;
+    top: 1006px;
+    left: 5px;
+    display: none;
+}
+/*。。。。。。。。。。。。。。。。。。。。。。。。。。。*/
+#B-红牛-bt{
+    position: absolute;
+    top: 606px;
+    left: 5px;
+    display: none;
+}
+#B-脉动-bt{
+    position: absolute;
+    top: 606px;
+    left: 600px;
+    display: none;
+}
+#B-怪物能量-bt{
+    position: absolute;
+    top: 606px;
+    left: 1150px;
+    display: none;
+}
+/*。。。。。。。。。。。。。。。。。。。。。。。。。。。。*/
+#H-感冒药-bt{
+    position: absolute;
+    top: 606px;
+    left: 5px;
+    display: none;
+}
+#H-退烧药-bt{
+    position: absolute;
+    top: 606px;
+    left: 600px;
+    display: none;
+}
+#H-过敏药-bt{
+    position: absolute;
+    top: 606px;
+    left: 1150px;
+    display: none;
+}
+/*。。。。。。。。。。。。。。。。。。。。*/
+#P-狗粮-bt{
+    position: absolute;
+    top: 606px;
+    left: 5px;
+    display: none;
+}
+/*。。。。。。。。。。。。。。。。。。。*/
+#S_西瓜_bt{
+    position: absolute;
+    top: 606px;
+    left: 5px;
+    display: none;
+}
+#S_草莓_bt{
+    position: absolute;
+    top: 606px;
+    left: 600px;
+    display: none;
+}
+#S_黄瓜_bt{
+    position: absolute;
+    top: 606px;
+    left: 1150px;
+    display: none;
+}
+#S_苹果_bt{
+    position: absolute;
+    top: 1006px;
+    left: 5px;
+    display: none;
+}
+#S_青菜_bt{
+    position: absolute;
+    top: 1006px;
+    left: 600px;
+    display: none;
+}
+#S_青椒_bt{
+    position: absolute;
+    top: 1006px;
+    left: 1150px;
+    display: none;
+}
+#S_西红柿_bt{
+    position: absolute;
+    top: 1406px;
+    left: 5px;
+    display: none;
+}
+#S_香蕉_bt{
+    position: absolute;
+    top: 1406px;
+    left: 600px;
+    display: none;
+}
+#S_冰淇淋_bt{
+    position: absolute;
+    top: 1406px;
+    left: 1150px;
+    display: none;
+}
+/*。。。。。。。。。。。。。。。。。。*/
+#S_三明治_bt{
+    position: absolute;
+    top: 606px;
+    left: 5px;
+    display: none;
+}
+#S1_酸奶_bt{
+    position: absolute;
+    top: 606px;
+    left: 600px;
+    display: none;
+}
+#S_甜筒_bt{
+    position: absolute;
+    top: 606px;
+    left: 1150px;
+    display: none;
+}
+#S_豆奶_bt{
+    position: absolute;
+    top: 1006px;
+    left: 5px;
+    display: none;
+}
+#S_奶酪_bt{
+    position: absolute;
+    top: 1006px;
+    left: 600px;
+    display: none;
+}
+#S_牛奶_bt{
+    position: absolute;
+    top: 1006px;
+    left: 1150px;
+    display: none;
+}
+#S_酸奶_bt{
+    position: absolute;
+    top: 1406px;
+    left: 5px;
+    display: none;
+}
+#S_面包片_bt{
+    position: absolute;
+    top: 1406px;
+    left: 600px;
+    display: none;
+}
+#S_曲奇_bt{
+    position: absolute;
+    top: 1406px;
+    left: 1150px;
+    display: none;
+}
+/*。。。。。。。。。。。。。。。。。。。。。。。*/
+#S_水果面包_bt{
+    position: absolute;
+    top: 606px;
+    left: 5px;
+    display: none;
+}
+#S_甜面包_bt{
+    position: absolute;
+    top: 606px;
+    left: 600px;
+    display: none;
+}
+#S_咸面包_bt{
+    position: absolute;
+    top: 606px;
+    left: 1150px;
+    display: none;
+}
+#S_饺子_bt{
+    position: absolute;
+    top: 1006px;
+    left: 5px;
+    display: none;
+}
+#S_辣椒酱_bt{
+    position: absolute;
+    top: 1006px;
+    left: 600px;
+    display: none;
+}
+#S_苹果干_bt{
+    position: absolute;
+    top: 1006px;
+    left: 1150px;
+    display: none;
+}
+#S_蔬菜三明治_bt{
+    position: absolute;
+    top: 1406px;
+    left: 5px;
+    display: none;
+}
+#S_水果糖_bt{
+    position: absolute;
+    top: 1406px;
+    left: 600px;
+    display: none;
+}
+#S_水果汁_bt{
+    position: absolute;
+    top: 1406px;
+    left: 1150px;
+    display: none;
+}
+/*............................*/
+#S_玉米粉_bt{
+    position: absolute;
+    top: 606px;
+    left: 5px;
+    display: none;
+}
+#S_咖啡_bt{
+    position: absolute;
+    top: 606px;
+    left: 600px;
+    display: none;
+}
+#S_茶_bt{
+    position: absolute;
+    top: 606px;
+    left: 1150px;
+    display: none;
+}
+#S_可乐_bt{
+    position: absolute;
+    top: 1006px;
+    left: 5px;
+    display: none;
+}
+#S_苹果汁_bt{
+    position: absolute;
+    top: 1006px;
+    left: 600px;
+    display: none;
+}
+#S_蔬菜汁_bt{
+    position: absolute;
+    top: 1006px;
+    left: 1150px;
+    display: none;
+}
+#S_西瓜汁_bt{
+    position: absolute;
+    top: 1406px;
+    left: 5px;
+    display: none;
+}
+#S_啤酒_bt{
+    position: absolute;
+    top: 1406px;
+    left: 600px;
+    display: none;
+}
+#S_水果酒_bt{
+    position: absolute;
+    top: 1406px;
+    left: 1150px;
+    display: none;
+}
+/*...............................*/
+#S_红牛_bt{
+    position: absolute;
+    top: 606px;
+    left: 5px;
+    display: none;
+}
+#S_脉动_bt{
+    position: absolute;
+    top: 606px;
+    left: 600px;
+    display: none;
+}
+#S_退烧药_bt{
+    position: absolute;
+    top: 606px;
+    left: 1150px;
+    display: none;
+}
+/*.............................*/
+#S_樱桃_bt{
+    position: absolute;
+    top: 606px;
+    left: 5px;
+    display: none;
+}
+#S_蛋糕_bt{
+    position: absolute;
+    top: 606px;
+    left: 600px;
+    display: none;
+}
+#S_奶粉_bt{
+    position: absolute;
+    top: 606px;
+    left: 1150px;
+    display: none;
+}
+#S_酒_bt{
+    position: absolute;
+    top: 1006px;
+    left: 5px;
+    display: none;
+}
+#S_鸡尾酒_bt{
+    position: absolute;
+    top: 1006px;
+    left: 600px;
+    display: none;
+}
+#S_感冒药_bt{
+    position: absolute;
+    top: 1006px;
+    left: 1150px;
+    display: none;
+}
+#S_过敏药_bt{
+    position: absolute;
+    top: 1406px;
+    left: 5px;
+    display: none;
+}
+#S_狗粮_bt{
+    position: absolute;
+    top: 1406px;
+    left: 600px;
+    display: none;
+}
+/*。。。。。。。。。。。。。。。。。。。。。。。。。。*/
+#S_牛肉_bt{
+    position: absolute;
+    top: 606px;
+    left: 5px;
+    display: none;
+}
+#S_带鱼_bt{
+    position: absolute;
+    top: 606px;
+    left: 600px;
+    display: none;
+}
+#S_鳕鱼_bt{
+    position: absolute;
+    top: 606px;
+    left: 1150px;
+    display: none;
+}
+#S_怪物能量_bt{
+    position: absolute;
+    top: 1006px;
+    left: 5px;
+    display: none;
+}
+/*......................................*/
+#S_羊肉_bt{
+    position: absolute;
+    top: 606px;
+    left: 5px;
+    display: none;
+}
+#S_猪肉_bt{
+    position: absolute;
+    top: 606px;
+    left: 600px;
+    display: none;
+}
+#S_鸡肉_bt{
+    position: absolute;
+    top: 606px;
+    left: 1150px;
+    display: none;
+}
+#S_鲑鱼_bt{
+    position: absolute;
+    top: 1006px;
+    left: 5px;
+    display: none;
+}
+#S_牡蛎_bt{
+    position: absolute;
+    top: 1006px;
+    left: 600px;
+    display: none;
+}
+#S_螃蟹_bt{
+    position: absolute;
+    top: 1006px;
+    left: 1150px;
+    display: none;
+}
+#S_葡萄酒_bt{
+    position: absolute;
+    top: 1406px;
+    left: 5px;
+    display: none;
+}
+/*。。。。。。。。。。。。。。。。。。。。。。*/
+#S_鲍鱼_bt{
+    position: absolute;
+    top: 606px;
+    left: 5px;
+    display: none;
+}
+/*.......................................*/
+#S_pos1_bt{
+    position: absolute;
+    top: 606px;
+    left: 5px;
+    display: none;
+}
+#S_pos2_bt{
+    position: absolute;
+    top: 606px;
+    left: 600px;
+    display: none;
+}
+#S_pos3_bt{
+    position: absolute;
+    top: 606px;
+    left: 1150px;
+    display: none;
+}
+#S_pos4_bt{
+    position: absolute;
+    top: 1006px;
+    left: 5px;
+    display: none;
+}
+#S_pos5_bt{
+    position: absolute;
+    top: 1006px;
+    left: 600px;
+    display: none;
+}
+#S_pos6_bt{
+    position: absolute;
+    top: 1006px;
+    left: 1150px;
+    display: none;
+}
+#S_pos7_bt{
+    position: absolute;
+    top: 1406px;
+    left: 5px;
+    display: none;
+}
+#S_pos8_bt{
+    position: absolute;
+    top: 1406px;
+    left: 600px;
+    display: none;
+}
+#S_pos9_bt{
+    position: absolute;
+    top: 1406px;
+    left: 1150px;
+    display: none;
+}
+#sc_1-img{
+    background-color: blueviolet;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    line-height: 150px;
+}
+#sc_2-img{
+    background-color: blue;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    line-height: 150px;
+}
+#sc_3-img{
+    background-color: green;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    line-height: 150px;
+}

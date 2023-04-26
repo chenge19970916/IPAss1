@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    #order_form{
+        border: 1px black solid;
+        height: 800px;
+        width: 500px;
+        margin-left: 600px;
+        text-align: center;
+        font-family: "Lucida Calligraphy", cursive, serif, sans-serif;
+        font-weight: bold;
+        font-size: larger;
+        position: relative;
+    }
+    #of_list{
+
+        margin-top: 50px;
+        text-align: left;
+        font-size: medium;
+
+    }
+    #of_list li {
+        margin-top: 50px;
+        list-style: none;
+    }
+    #or_name{
+        position: absolute;
+        width: 300px;
+        top: 75px;
+        left: 150px;
+    }
+    #or_address{
+        position: absolute;
+        width: 300px;
+        top: 147px;
+        left: 150px;
+    }
+    #or_suburb{
+        position: absolute;
+        width: 300px;
+        top: 219px;
+        left: 150px;
+    }
+    #or_state{
+        position: absolute;
+        width: 300px;
+        top: 291px;
+        left: 150px;
+    }
+    #or_country{
+         position: absolute;
+         width: 300px;
+         top: 365px;
+         left: 150px;
+     }
+    #or_pn{
+        position: absolute;
+        width: 250px;
+        top: 435px;
+        left: 200px;
+    }
+    #or_email{
+        position: absolute;
+        width: 300px;
+        top: 510px;
+        left: 150px;
+    }
+    #place_order{
+        margin-top: 70px;
+        width: 100px;
+        height: 40px;
+    }
+    p{
+        font-size: medium;
+        font-weight: bold;
+
+    }
+    #order_list{
+        width: 350px;
+        height: 500px;
+        border: 1px black solid;
+        margin-left: 1300px;
+        position: absolute;
+        top: 100px;
+        text-align: center;
+        font-family: "Lucida Calligraphy", cursive, serif, sans-serif;
+        font-weight: bold;
+        font-size: larger;
+    }
+    #shop1{
+        margin-right: 200px;
+    }
+    #ol_list1{
+        font-weight: bold;
+        font-size: small;
+        position: absolute;
+        top: 50px;
+        list-style: none;
+    }
+    #ol_list1 li{
+        margin-top: 10px;
+    }
+    #shop2{
+        margin-right: 200px;
+        margin-top: 100px;
+    }
+    #ol_list2{
+        font-weight: bold;
+        font-size: small;
+        position: absolute;
+        top: 175px;
+        list-style: none;
+    }
+    #ol_list2 li{
+        margin-top: 10px;
+    }
+    #shop3{
+        margin-right: 200px;
+        margin-top: 100px;
+    }
+    #ol_list3{
+        font-weight: bold;
+        font-size: small;
+        position: absolute;
+        top: 300px;
+        list-style: none;
+    }
+    #ol_list3 li{
+        margin-top: 10px;
+    }
+    #total_price{
+        position: absolute;
+        top: 430px;
+    }
+    #sp1_name_a{
+        border: 1px black solid;
+        position: absolute;
+        height: 20px;
+        width: 200px;
+        top:55px;
+        left: 130px;
+    }
+    #sp1_number_a{
+        border: 1px black solid;
+        position: absolute;
+        height: 20px;
+        width: 200px;
+        top:80px;
+        left: 130px;
+    }
+    #sp1_price_a{
+        border: 1px black solid;
+        position: absolute;
+        height: 20px;
+        width: 200px;
+        top:105px;
+        left: 130px;
+    }
+    #sp2_name_a{
+        border: 1px black solid;
+        position: absolute;
+        height: 20px;
+        width: 200px;
+        top:180px;
+        left: 130px;
+    }
+    #sp2_number_a{
+        border: 1px black solid;
+        position: absolute;
+        height: 20px;
+        width: 200px;
+        top:205px;
+        left: 130px;
+    }
+    #sp2_price_a{
+        border: 1px black solid;
+        position: absolute;
+        height: 20px;
+        width: 200px;
+        top:230px;
+        left: 130px;
+    }
+    #sp3_name_a{
+        border: 1px black solid;
+        position: absolute;
+        height: 20px;
+        width: 200px;
+        top:305px;
+        left: 130px;
+    }
+    #sp3_number_a{
+        border: 1px black solid;
+        position: absolute;
+        height: 20px;
+        width: 200px;
+        top:330px;
+        left: 130px;
+    }
+    #sp3_price_a{
+        border: 1px black solid;
+        position: absolute;
+        height: 20px;
+        width: 200px;
+        top:355px;
+        left: 130px;
+    }
+    #total{
+        border: 1px black solid;
+        position: absolute;
+        height: 40px;
+        width: 200px;
+        top:430px;
+        left: 130px;
+        font-size: medium;
+    }
+    #show{
+        height: 40px;
+        width: 400px;
+        position: absolute;
+        top:430px;
+        right: 550px;
+        font-size: small;
+    }
+</style>
+<body>
+
+<div id="order_form">
+Order Form
+
+        <ul id ="of_list">
+            <li>Name:</li>
+            <li>Address:</li>
+            <li>Suburb:</li>
+            <li>State:</li>
+            <li>Country:</li>
+            <li>Phone Number:</li>
+            <li>Email:</li>
+        </ul>
+    <input type="text" id="or_name">
+    <input type="text" id="or_address">
+    <input type="text" id="or_suburb">
+    <input type="text" id="or_state">
+    <input type="text" id="or_country">
+    <input type="text" id="or_pn">
+    <input type="email" id="or_email" placeholder="sophie@example.com">
+
+    <button id="place_order" onclick="place_order()">Place Order</button>
+</div>
+<div id="order_list">
+Order List
+    <p id="shop1">Item1:</p>
+    <ul id="ol_list1">
+        <li id="sp1_name">Name:</li>
+        <li id="sp1_number">Number:</li>
+        <li id="sp1_price">Price:</li>
+    </ul>
+    <p id="shop2">Item2:</p>
+    <ul id="ol_list2">
+        <li id="sp2_name">Name:</li>
+        <li id="sp2_number">Number:</li>
+        <li id="sp2_price">Price:</li>
+    </ul>
+    <p id="show"></p>
+    <p id="shop3">Item3:</p>
+    <ul id="ol_list3">
+        <li id="sp3_name">Name:</li>
+        <li id="sp3_number">Number:</li>
+        <li id="sp3_price">Price:</li>
+    </ul>
+    <p id ="total_price">Total price:</p>
+    <p id="sp1_name_a"></p>
+    <p id="sp1_number_a"></p>
+    <p id="sp1_price_a"></p>
+    <p id="sp2_name_a"></p>
+    <p id="sp2_number_a"></p>
+    <p id="sp2_price_a"></p>
+    <p id="sp3_name_a"></p>
+    <p id="sp3_number_a"></p>
+    <p id="sp3_price_a"></p>
+    <p id="total"></p>
+
+</div>
+<!--<button onclick="show_mailto()">Click me</button>-->
+</body>
+</html>
+<script>
+        document.getElementById("total").innerText=localStorage.getItem("total");
+        document.getElementById("sp1_name_a").innerText=localStorage.getItem("sp1_name");
+        document.getElementById("sp1_number_a").innerText=localStorage.getItem("sp1_number");
+        document.getElementById("sp1_price_a").innerText=localStorage.getItem("sp1_price");
+        document.getElementById("sp2_name_a").innerText=localStorage.getItem("sp2_name");
+        document.getElementById("sp2_number_a").innerText=localStorage.getItem("sp2_number");
+        document.getElementById("sp2_price_a").innerText=localStorage.getItem("sp2_price");
+        document.getElementById("sp3_name_a").innerText=localStorage.getItem("sp3_name");
+        document.getElementById("sp3_number_a").innerText=localStorage.getItem("sp3_number");
+        document.getElementById("sp3_price_a").innerText=localStorage.getItem("sp3_price");
+        var sc1_name =document.getElementById("sp1_name_a").innerText;
+        var sc1_number =document.getElementById("sp1_number_a").innerText;
+        var sc1_price =document.getElementById("sp1_price_a").innerText;
+        var sc2_name =document.getElementById("sp2_name_a").innerText;
+        var sc2_number =document.getElementById("sp2_number_a").innerText;
+        var sc2_price =document.getElementById("sp2_price_a").innerText;
+        var sc3_name =document.getElementById("sp3_name_a").innerText;
+        var sc3_number =document.getElementById("sp3_number_a").innerText;
+        var sc3_price =document.getElementById("sp3_price_a").innerText;
+        var total_price =document.getElementById("total").innerText;
+
+    function place_order() {
+        var order_name = document.getElementById("or_name").value;
+        var order_address = document.getElementById("or_address").value;
+        var order_suburb = document.getElementById("or_suburb").value;
+        var order_state = document.getElementById("or_state").value;
+        var order_country = document.getElementById("or_country").value;
+        var order_pn = document.getElementById("or_pn").value;
+        var order_email = document.getElementById("or_email").value;
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (order_name == "") {
+            alert("Please enter your name!");
+        } else if(order_address == ""){
+            alert("Please enter your address!")
+        }else if(order_suburb == ""){
+            alert("Please enter suburb!")
+        }else if(order_state == ""){
+            alert("Please enter state!")
+        }else if(order_country == ""){
+            alert("Please enter your country!")
+        }else if(order_pn == ""){
+            alert("Please enter your phone number!")
+        }else if(order_email == ""){
+            alert("Please enter your email address!")
+        }else if (!emailRegex.test(order_email)) {
+            document.getElementById("show").innerText = "Please enter a valid email address.";
+        }else{
+            document.getElementById("show").innerText = "";
+            var now = new Date().toString();
+            var message = "Thank you for your order, " + order_name + "!\n\n";
+            message += "Order details:\n";
+            message += "Time: " + now + "\n";
+            message += "Name: " + order_name + "\n";
+            message += "1st item: \n";
+            message += "1st item name: " + sc1_name + "\n";
+            message += "1st item number: " + sc1_number + "\n";
+            message += "1st item price: " + sc1_price + "\n";
+            message += "2st item name: " + sc2_name + "\n";
+            message += "2st item number: " + sc2_number + "\n";
+            message += "2st item price: " + sc2_price + "\n";
+            message += "3st item name: " + sc3_name + "\n";
+            message += "3st item number: " + sc3_number + "\n";
+            message += "3st item price: " + sc3_price + "\n";
+            message += "Total: " + total_price + "\n";
+            var url = "mailto:" + order_email + "?subject=Order Confirmation" + "&body=" + message;
+            window.location.href = url;
+            alert("Order placed successfully! Confirmation email sent.");
+        }
+
+
+
+            //寄邮件方法
+
+
+
+    }
+
+   /* function show_mailto() {
+        var order_name = document.getElementById("or_name").value;
+        var message = "Thank you for your order, " + order_name + "!\n\n";
+        message += "Order details:\n";
+        message += "Name: " + order_name + "\n";
+        var url = "mailto:1044580460@qq.com" + "?subject=Order Confirmation"+ "&body=" + message;
+        window.location.href = url;
+        alert("Order placed successfully! Confirmation email sent.");
+    }*/
+</script>

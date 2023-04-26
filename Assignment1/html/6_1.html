@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTS-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .S-content{
+            height: 1300px;
+
+        }
+        #S-西瓜{
+            height: 300px;
+            width: 250px;
+            position: relative;
+        }
+        #S-西瓜-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/F-西瓜.jpg");
+        }
+        #S-西瓜-name{
+            margin-top: 10px;
+        }
+        #S-西瓜-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        .购物车按钮{
+            margin-left: 200px;
+        }
+        #S-草莓{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 600px;
+            top: 332px;
+        }
+        #S-草莓-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/F-草莓.jpg");
+        }
+        #S-草莓-name{
+            margin-top: 10px;
+        }
+        #S-草莓-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-黄瓜{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 1150px;
+            top: 332px;
+        }
+        #S-黄瓜-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/F-黄瓜.jpg");
+        }
+        #S-黄瓜-name{
+            margin-top: 10px;
+        }
+        #S-黄瓜-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-苹果{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            top: 732px;
+        }
+        #S-苹果-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/F-苹果.jpg");
+        }
+        #S-苹果-name{
+            margin-top: 10px;
+        }
+        #S-苹果-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-青菜{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 600px;
+            top: 732px;
+        }
+        #S-青菜-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/F-青菜.jpg");
+        }
+        #S-青菜-name{
+            margin-top: 10px;
+        }
+        #S-青菜-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-青椒{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 1150px;
+            top: 732px;
+        }
+        #S-青椒-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/F-青椒.jpg");
+        }
+        #S-青椒-name{
+            margin-top: 10px;
+        }
+        #S-青椒-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-西红柿{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            top: 1132px;
+        }
+        #S-西红柿-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/F-西红柿.jpg");
+        }
+        #S-西红柿-name{
+            margin-top: 10px;
+        }
+        #S-西红柿-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-香蕉{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 600px;
+            top: 1132px;
+        }
+        #S-香蕉-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/F-香蕉.jpg");
+        }
+        #S-香蕉-name{
+            margin-top: 10px;
+        }
+        #S-香蕉-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-冰淇淋{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 1150px;
+            top: 1132px;
+        }#S-冰淇淋-img{
+             width: 250px;
+             height: 200px;
+             background-image: url("../image/F-冰淇淋.jpg");
+         }
+        #S-冰淇淋-name{
+            margin-top: 10px;
+        }
+        #S-冰淇淋-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div class="S-content">
+    <div id="S-西瓜">
+        <div id="S-西瓜-img"></div>
+        <div id="S-西瓜-name">Frozen-Food-watermallen</div>
+        <div id="S-西瓜-price">$20.1</div>
+        <p>In stock</p>
+    </div>
+    <div id ="S-草莓">
+        <div id="S-草莓-img"></div>
+        <div id="S-草莓-name">Frozen-Food-Strawberry</div>
+        <div id="S-草莓-price">$12.6</div>
+        <p style="color: grey">Not in stock</p>
+    </div>
+    <div id ="S-黄瓜">
+        <div id="S-黄瓜-img"></div>
+        <div id="S-黄瓜-name">Frozen-Food-Cucumber</div>
+        <div id="S-黄瓜-price">$31.7</div>
+        <p>In stock</p>
+    </div>
+    <div id ="S-苹果">
+        <div id="S-苹果-img"></div>
+        <div id="S-苹果-name">Frozen-Food-Apple</div>
+        <div id="S-苹果-price">$15.6</div>
+        <p>In stock</p>
+    </div>
+    <div id ="S-青菜">
+        <div id="S-青菜-img"></div>
+        <div id="S-青菜-name">Frozen-Food-Green vegetable</div>
+        <div id="S-青菜-price">$5.8</div>
+        <p>In stock</p>
+    </div>
+    <div id ="S-青椒">
+        <div id="S-青椒-img"></div>
+        <div id="S-青椒-name">Frozen-Food-green pepper</div>
+        <div id="S-青椒-price">$11.9</div>
+        <p>In stock</p>
+    </div>
+    <div id ="S-西红柿">
+        <div id="S-西红柿-img"></div>
+        <div id="S-西红柿-name">Frozen-Food-Tomato</div>
+        <div id="S-西红柿-price">$8.8</div>
+        <p>In stock</p>
+    </div>
+    <div id ="S-香蕉">
+        <div id="S-香蕉-img"></div>
+        <div id="S-香蕉-name">Frozen-Food-Banana</div>
+        <div id="S-香蕉-price">$4.4</div>
+        <p>In stock</p>
+    </div>
+    <div id="S-冰淇淋">
+        <div id="S-冰淇淋-img"></div>
+        <div id="S-冰淇淋-name">Frozen-Food-Icecream</div>
+        <div id="S-冰淇淋-price">$20.0</div>
+        <p>In stock</p>
+    </div>
+</div>
+
+</body>
+</html>
+
+<script>
+</script>

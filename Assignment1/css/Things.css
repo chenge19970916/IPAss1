@@ -1,0 +1,50 @@
+.Things{
+    height: 1500px;
+    width: 1420px;
+
+    margin-left: 260px;
+    position: absolute;
+    top: 145px;
+}
+.roll{
+    width: 570px;
+    height: 280px;
+    margin:0px auto;
+    margin-top: 50px;
+    /* background-color:aquamarine; */
+    overflow: hidden;/*用于隐藏超出展示容器的内容部分*/
+}
+.demo1{
+    width:2850px;
+    height:280px;
+    margin:0px auto;
+    animation:text 30s infinite  linear;
+    font-size:0px;/*消除图片间隔*/
+
+}
+#product{
+    height: 1450px;
+    width: 1400px;
+}
+@keyframes text { /*0%-20%是播放下一个图片，0%-10%是图片暂停的时间*/
+    0%, 10% {
+        margin-left: 0px;
+    }
+    20%, 30% {
+        margin-left: -570px;
+    }
+    40%, 50% {
+        margin-left: -1140px;
+    }
+    60%, 70% {
+        margin-left: -1710px;
+    }
+    80%, 90% {
+        margin-left: -2280px;
+    }
+}
+.demo1 img{
+    width:570px;
+    height:280px;
+    float:left;/*开启浮动*/
+}

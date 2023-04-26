@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTS-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .S-content{
+            height: 1300px;
+
+        }
+        #S-三明治{
+            height: 300px;
+            width: 250px;
+            position: relative;
+        }
+        #S-三明治-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/F-三明治.jpg");
+        }
+        #S-三明治-name{
+            margin-top: 10px;
+        }
+        #S-三明治-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        .购物车按钮{
+            margin-left: 200px;
+        }
+        #S1-酸奶{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 600px;
+            top: 332px;
+        }
+        #S1-酸奶-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/F-酸奶.jpg");
+        }
+        #S1-酸奶-name{
+            margin-top: 10px;
+        }
+        #S1-酸奶-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-甜筒{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 1150px;
+            top: 332px;
+        }
+        #S-甜筒-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/F-甜筒.jpg");
+        }
+        #S-甜筒-name{
+            margin-top: 10px;
+        }
+        #S-甜筒-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-豆奶{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            top: 732px;
+        }
+        #S-豆奶-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/Fr-豆奶.jpg");
+        }
+        #S-豆奶-name{
+            margin-top: 10px;
+        }
+        #S-豆奶-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-奶酪{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 600px;
+            top: 732px;
+        }
+        #S-奶酪-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/Fr-奶酪.jpg");
+        }
+        #S-奶酪-name{
+            margin-top: 10px;
+        }
+        #S-奶酪-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-牛奶{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 1150px;
+            top: 732px;
+        }
+        #S-牛奶-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/Fr-牛奶.jpg");
+        }
+        #S-牛奶-name{
+            margin-top: 10px;
+        }
+        #S-牛奶-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-酸奶{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            top: 1132px;
+        }
+        #S-酸奶-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/Fr-酸奶.jpg");
+        }
+        #S-酸奶-name{
+            margin-top: 10px;
+        }
+        #S-酸奶-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-面包片{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 600px;
+            top: 1132px;
+        }
+        #S-面包片-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/Fr-面包片.jpg");
+        }
+        #S-面包片-name{
+            margin-top: 10px;
+        }
+        #S-面包片-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-曲奇{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 1150px;
+            top: 1132px;
+        }#S-曲奇-img{
+             width: 250px;
+             height: 200px;
+             background-image: url("../image/Fr-曲奇.jpg");
+         }
+        #S-曲奇-name{
+            margin-top: 10px;
+        }
+        #S-曲奇-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div class="S-content">
+    <div id ="S-三明治">
+        <div id="S-三明治-img"></div>
+        <div id="S-三明治-name">Frozen-Food-Sandwich</div>
+        <div id="S-三明治-price">$25.5</div>
+        <p>In stock</p>
+    </div>
+    <div id ="S1-酸奶">
+        <div id="S1-酸奶-img"></div>
+        <div id="S1-酸奶-name">Frozen-Food-Yogurt</div>
+        <div id="S1-酸奶-price">$6.6</div>
+        <p>In stock</p>
+    </div>
+    <div id ="S-甜筒">
+        <div id="S-甜筒-img"></div>
+        <div id="S-甜筒-name">Frozen-Food-Cone</div>
+        <div id="S-甜筒-price">$7.7</div>
+        <p style="color: grey">Not in stock</p>
+    </div>
+    <div id="S-豆奶">
+        <div id="S-豆奶-img"></div>
+        <div id="S-豆奶-name">Fresh-Food-Soymilk</div>
+        <div id="S-豆奶-price">$10.0</div>
+        <p>In stock</p>
+    </div>
+    <div id ="S-奶酪">
+        <div id="S-奶酪-img"></div>
+        <div id="S-奶酪-name">Fresh-Food-Cheese</div>
+        <div id="S-奶酪-price">$20.5</div>
+        <p>In stock</p>
+    </div>
+    <div id ="S-牛奶">
+        <div id="S-牛奶-img"></div>
+        <div id="S-牛奶-name">Fresh-Food-Milk</div>
+        <div id="S-牛奶-price">$16.6</div>
+        <p>In stock</p>
+    </div>
+    <div id ="S-酸奶">
+        <div id="S-酸奶-img"></div>
+        <div id="S-酸奶-name">Fresh-Food-Yogurt</div>
+        <div id="S-酸奶-price">$5.5</div>
+        <p>In stock</p>
+    </div>
+    <div id="S-面包片">
+        <div id="S-面包片-img"></div>
+        <div id="S-面包片-name">Fresh-Food-slices of bread</div>
+        <div id="S-面包片-price">$6.0</div>
+        <p>In stock</p>
+    </div>
+
+    <div id ="S-曲奇">
+        <div id="S-曲奇-img"></div>
+        <div id="S-曲奇-name">Fresh-Food-cookie</div>
+        <div id="S-曲奇-price">$3.0</div>
+        <p>In stock</p>
+    </div>
+</div>
+
+</body>
+</html>
+
+<script>
+</script>

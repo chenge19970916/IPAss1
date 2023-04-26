@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTS-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .S-content{
+            height: 1300px;
+
+        }
+        #S-玉米粉{
+            height: 300px;
+            width: 250px;
+            position: relative;
+        }
+        #S-玉米粉-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/Fr-玉米粉.jpg");
+        }
+        #S-玉米粉-name{
+            margin-top: 10px;
+        }
+        #S-玉米粉-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        .购物车按钮{
+            margin-left: 200px;
+        }
+        #S-咖啡{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 600px;
+            top: 332px;
+        }
+        #S-咖啡-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/B-咖啡.jpg");
+        }
+        #S-咖啡-name{
+            margin-top: 10px;
+        }
+        #S-咖啡-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-茶{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 1150px;
+            top: 332px;
+        }
+        #S-茶-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/B-茶.jpg");
+        }
+        #S-茶-name{
+            margin-top: 10px;
+        }
+        #S-茶-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-可乐{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            top: 732px;
+        }
+        #S-可乐-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/B-可乐.jpg");
+        }
+        #S-可乐-name{
+            margin-top: 10px;
+        }
+        #S-可乐-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-苹果汁{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 600px;
+            top: 732px;
+        }
+        #S-苹果汁-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/B-苹果汁.jpg");
+        }
+        #S-苹果汁-name{
+            margin-top: 10px;
+        }
+        #S-苹果汁-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-蔬菜汁{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 1150px;
+            top: 732px;
+        }
+        #S-蔬菜汁-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/B-蔬菜汁.jpg");
+        }
+        #S-蔬菜汁-name{
+            margin-top: 10px;
+        }
+        #S-蔬菜汁-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-西瓜汁{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            top: 1132px;
+        }
+        #S-西瓜汁-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/B-西瓜汁.jpg");
+        }
+        #S-西瓜汁-name{
+            margin-top: 10px;
+        }
+        #S-西瓜汁-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-啤酒{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 600px;
+            top: 1132px;
+        }
+        #S-啤酒-img{
+            width: 250px;
+            height: 200px;
+            background-image: url("../image/B-啤酒.jpg");
+        }
+        #S-啤酒-name{
+            margin-top: 10px;
+        }
+        #S-啤酒-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+        #S-水果酒{
+            height: 300px;
+            width: 250px;
+            position: absolute;
+            left: 1150px;
+            top: 1132px;
+        }#S-水果酒-img{
+             width: 250px;
+             height: 200px;
+             background-image: url("../image/B-水果酒.jpg");
+         }
+        #S-水果酒-name{
+            margin-top: 10px;
+        }
+        #S-水果酒-price{
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: large;
+            font-weight: bold;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div class="S-content">
+    <div id ="S-玉米粉">
+        <div id="S-玉米粉-img"></div>
+        <div id="S-玉米粉-name">Fresh-Food-corn flour</div>
+        <div id="S-玉米粉-price">$26.9</div>
+        <p>In stock</p>
+    </div>
+    <div id="S-咖啡">
+        <div id="S-咖啡-img"></div>
+        <div id="S-咖啡-name">Beverages-Coffee</div>
+        <div id="S-咖啡-price">$7.9</div>
+        <p>In stock</p>
+    </div>
+
+    <div id ="S-茶">
+        <div id="S-茶-img"></div>
+        <div id="S-茶-name">Beverages-Tea</div>
+        <div id="S-茶-price">$17.9</div>
+        <p>In stock</p>
+    </div>
+    <div id ="S-可乐">
+        <div id="S-可乐-img"></div>
+        <div id="S-可乐-name">Beverages-Coke</div>
+        <div id="S-可乐-price">$14.2</div>
+        <p>In stock</p>
+    </div>
+    <div id ="S-苹果汁">
+        <div id="S-苹果汁-img"></div>
+        <div id="S-苹果汁-name">Beverages-Apple juice</div>
+        <div id="S-苹果汁-price">$17.2</div>
+        <p>In stock</p>
+    </div>
+    <div id ="S-蔬菜汁">
+        <div id="S-蔬菜汁-img"></div>
+        <div id="S-蔬菜汁-name">Beverages-Vegetable juice</div>
+        <div id="S-蔬菜汁-price">$26.9</div>
+        <p style="color: grey">Not in stock</p>
+    </div>
+    <div id ="S-西瓜汁">
+        <div id="S-西瓜汁-img"></div>
+        <div id="S-西瓜汁-name">Beverages-Watermelon juice</div>
+        <div id="S-西瓜汁-price">$26.6</div>
+        <p>In stock</p>
+    </div>
+    <div id ="S-啤酒">
+        <div id="S-啤酒-img"></div>
+        <div id="S-啤酒-name">Beverages-beer</div>
+        <div id="S-啤酒-price">$20.2</div>
+        <p>In stock</p>
+    </div>
+    <div id ="S-水果酒">
+        <div id="S-水果酒-img"></div>
+        <div id="S-水果酒-name">Beverages-Fruit wine</div>
+        <div id="S-水果酒-price">$29.9</div>、
+        <p>In stock</p>
+    </div>
+</div>
+
+</body>
+</html>
+
+<script>
+</script>
